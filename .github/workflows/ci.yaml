@@ -43,7 +43,7 @@ jobs:
       - run: pnpm lint:examples
 
   docs:
-    name: "Create & publish documentation"
+    name: "Create & publish documentation  "
     if: github.event.pull_request.merged == true
     needs: build
     runs-on: ubuntu-latest
