@@ -5,6 +5,8 @@ on:
     branches: [main, "lens-v2"]
   pull_request:
     branches: [main, "lens-v2"]
+    types:
+      - closed
 
 jobs:
   build:
@@ -42,7 +44,7 @@ jobs:
 
   docs:
     name: "Create & publish documentation"
-#    if: github.event.pull_request.merged == true
+    if: github.event.pull_request.merged == true
     needs: build
     runs-on: ubuntu-latest
 
