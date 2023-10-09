@@ -74,7 +74,7 @@
     "@lens-protocol/metadata": "0.1.0-alpha.29",
     "@lens-protocol/prettier-config": "workspace:*",
     "@lens-protocol/tsconfig": "workspace:*",
-    "@types/jest": "29.5.3",
+    "@types/jest": "29.5.5",
     "@types/jest-when": "^3.5.2",
     "@types/node": "^18.15.11",
     "@types/traverse": "^0.6.32",

@@ -373,8 +373,8 @@ importers:
         specifier: workspace:*
         version: link:../tsconfig
       '@types/jest':
-        specifier: 29.5.3
-        version: 29.5.3
+        specifier: 29.5.5
+        version: 29.5.5
       '@types/node':
         specifier: ^18.15.11
         version: 18.15.11
@@ -470,8 +470,8 @@ importers:
         specifier: workspace:*
         version: link:../tsconfig
       '@types/jest':
-        specifier: 29.5.3
-        version: 29.5.3
+        specifier: 29.5.5
+        version: 29.5.5
       '@types/node':
         specifier: ^18.15.11
         version: 18.15.11
@@ -540,8 +540,8 @@ importers:
         specifier: workspace:*
         version: link:../tsconfig
       '@types/jest':
-        specifier: 29.5.3
-        version: 29.5.3
+        specifier: 29.5.5
+        version: 29.5.5
       eslint:
         specifier: ^8.34.0
         version: 8.34.0
@@ -713,8 +713,8 @@ importers:
         specifier: workspace:*
         version: link:../tsconfig
       '@types/jest':
-        specifier: 29.5.3
-        version: 29.5.3
+        specifier: 29.5.5
+        version: 29.5.5
       '@types/jest-when':
         specifier: ^3.5.2
         version: 3.5.2
@@ -859,8 +859,8 @@ importers:
         specifier: workspace:*
         version: link:../tsconfig
       '@types/jest':
-        specifier: 29.5.3
-        version: 29.5.3
+        specifier: 29.5.5
+        version: 29.5.5
       '@types/jest-when':
         specifier: ^3.5.2
         version: 3.5.2
@@ -1010,8 +1010,8 @@ importers:
         specifier: ^13.4.0
         version: 13.4.0(react-dom@18.2.0)(react@18.2.0)
       '@types/jest':
-        specifier: 29.5.3
-        version: 29.5.3
+        specifier: 29.5.5
+        version: 29.5.5
       '@types/jest-when':
         specifier: ^3.5.2
         version: 3.5.2
@@ -1158,8 +1158,8 @@ importers:
         specifier: ^13.4.0
         version: 13.4.0(react-dom@18.2.0)(react@18.2.0)
       '@types/jest':
-        specifier: 29.5.3
-        version: 29.5.3
+        specifier: 29.5.5
+        version: 29.5.5
       '@types/jest-when':
         specifier: ^3.5.2
         version: 3.5.2
@@ -1264,8 +1264,8 @@ importers:
         specifier: ^13.4.0
         version: 13.4.0(react-dom@18.2.0)(react@18.2.0)
       '@types/jest':
-        specifier: 29.5.3
-        version: 29.5.3
+        specifier: 29.5.5
+        version: 29.5.5
       '@types/jest-when':
         specifier: ^3.5.2
         version: 3.5.2
@@ -1358,8 +1358,8 @@ importers:
         specifier: ^13.4.0
         version: 13.4.0(react-dom@18.2.0)(react@18.2.0)
       '@types/jest':
-        specifier: 29.5.3
-        version: 29.5.3
+        specifier: 29.5.5
+        version: 29.5.5
       '@types/jest-when':
         specifier: ^3.5.2
         version: 3.5.2
@@ -1443,8 +1443,8 @@ importers:
         specifier: workspace:*
         version: link:../tsconfig
       '@types/jest':
-        specifier: 29.5.3
-        version: 29.5.3
+        specifier: 29.5.5
+        version: 29.5.5
       '@types/lodash':
         specifier: ^4.14.191
         version: 4.14.191
@@ -1501,8 +1501,8 @@ importers:
         specifier: workspace:*
         version: link:../tsconfig
       '@types/jest':
-        specifier: 29.5.3
-        version: 29.5.3
+        specifier: 29.5.5
+        version: 29.5.5
       '@types/node':
         specifier: ^18.15.11
         version: 18.15.11
@@ -9917,11 +9917,18 @@ packages:
   /@types/jest-when@3.5.2:
     resolution: {integrity: sha512-1WP+wJDW7h4TYAVLoIebxRIVv8GPk66Qsq2nU7PkwKZ6usurnDQZgk0DfBNKAJ9gVzapCXSV53Vn/3nBHBNzAw==}
     dependencies:
-      '@types/jest': 29.5.3
+      '@types/jest': 29.5.5
     dev: true
 
   /@types/jest@29.5.3:
     resolution: {integrity: sha512-1Nq7YrO/vJE/FYnqYyw0FS8LdrjExSgIiHyKg7xPpn+yi8Q4huZryKnkJatN1ZRH89Kw2v33/8ZMB7DuZeSLlA==}
+    dependencies:
+      expect: 29.6.2
+      pretty-format: 29.6.2
+    dev: true
+
+  /@types/jest@29.5.5:
+    resolution: {integrity: sha512-ebylz2hnsWR9mYvmBFbXJXr+33UPc4+ZdxyDXh5w0FlPBTfCVN3wPL+kuOiQt3xvrK419v7XWeAs+AeOksafXg==}
     dependencies:
       expect: 29.6.2
       pretty-format: 29.6.2
