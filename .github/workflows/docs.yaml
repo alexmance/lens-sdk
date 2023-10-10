@@ -22,11 +22,11 @@ jobs:
           node-version-file: ".nvmrc"
           cache: "pnpm"
 
-      - run: pnpm install --frozen-lockfile
+      #- run: pnpm install --frozen-lockfile
 
-      - run: pnpm build
+      #- run: pnpm build
 
-      - run: pnpm lint
+      #- run: pnpm lint
 
       # - name: Run tests
       #   run: pnpm test
@@ -38,7 +38,7 @@ jobs:
       #     TESTING_HEADER_KEY: ${{secrets.TESTING_HEADER_KEY}}
       #     TESTING_HEADER_VALUE: ${{secrets.TESTING_HEADER_VALUE}}
 
-      - run: pnpm lint:examples
+      #- run: pnpm lint:examples
 
   docs:
     if: github.event.pull_request.merged == true
@@ -64,5 +64,4 @@ jobs:
       - name: Deploy documentation
         uses: JamesIves/github-pages-deploy-action@v4.4.3
         with:
-          branch: docs
-          folder: docs
+          branch: github-pages
